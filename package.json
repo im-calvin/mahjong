@@ -1,0 +1,17 @@
+{
+  "name": "mahjong-discord-activity",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A starter project using react and colyseus",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm run --filter \"./packages/**\" --parallel dev",
+    "tunnel": "cloudflared tunnel --url http://localhost:3000",
+    "format": "prettier --write \"packages/**/*.{ts,tsx}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
